@@ -41,7 +41,6 @@ button {
   color: white;
   padding: 8px 24px;
   align-self: center;
-  
 }
 
 a {
@@ -53,7 +52,7 @@ a {
 ul {
   list-style-type: none;
   display: flex;
-  gap: 15px;
+  gap: 16px;
 }
 
 .button-and-image {
