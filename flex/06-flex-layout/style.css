@@ -5,6 +5,15 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  min-height: 100vh;
+  
+}
+
+.main-div {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  
 }
 
 img {
@@ -14,7 +23,7 @@ img {
 button {
   font-family: Roboto, sans-serif;
   border: none;
-  border-radius: 8px;
+  border-radius: 4px;
   background: #eee;
 }
 
@@ -25,3 +34,48 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+.header {
+  display: flex;
+  align-items: center;
+
+}
+
+.footer {
+  display: flex;
+  background: #eeeeee;
+  margin-top: auto; /*  HAVE TO CHANGE TO AUTO */
+}
+
+.left-links {
+  display: flex;
+  gap: 10px;
+  margin-right: auto;
+  margin-left: 10px;
+  padding: 10px;
+}
+
+.right-links {
+  display: flex;
+  gap: 10px;
+  margin-left: auto;
+  margin-right: 10px;
+  padding: 10px; 
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+ }
+
+ .content {
+  margin-top: 150px; /* PROBLEM - dont want to hard code... isnt there a way to center the content to the screen?? */ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+ }
