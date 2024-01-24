@@ -4,26 +4,72 @@ body {
   min-height: 100vh;
 }
 
+.largest-div {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-between;
+}
+
 .header {
-  height: 72px;
   background: darkmagenta;
   color: white;
+  margin-bottom: auto;
+  font-weight: 900;
+  font-size: 32px;
+  padding: 10px;
 }
 
 .footer {
-  height: 72px;
   background: #eee;
   color: darkmagenta;
+  margin-top: auto;
+  padding: 20px;
+  text-align: center;
+  
 }
 
 .sidebar {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+  flex-shrink: 0;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding-left: 10px;
+}
+
+.sidebar li {
+  padding: 10px;
+}
+
+
+.sidebar a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  width: 250px;
+  height: 250px;
+  padding: 20px;
+}
+
+.main {
+  display: flex;
+  flex: 1;
+}
+
+.all-cards {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  padding: 50px;
+  
 }
